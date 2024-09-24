@@ -1,8 +1,4 @@
-﻿// test-dll.cpp: 定义应用程序的入口点。
-//
-
-#include "test-dll.h"
-#include <string>
+﻿#include <string>
 #include <iostream>
 #include "mydll.h"
 

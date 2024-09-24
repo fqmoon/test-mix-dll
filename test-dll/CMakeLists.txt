@@ -5,7 +5,7 @@ include_directories(../mydll)
 link_directories(../mydll)
 link_libraries(mydll)
 
-add_executable (test-dll "test-dll.cpp" "test-dll.h")
+add_executable (test-dll "test-dll.cpp" )
 
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
