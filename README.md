@@ -4,6 +4,8 @@
 
 debug编译的test-dll能正常调用release编译的mydll吗？进行测试。
 
+[我的博客](https://fqmoon.com/blog/2024/debug%E5%92%8Crelease%E7%9A%84%E5%BA%93(dll)%E4%B8%8D%E8%83%BD%E6%B7%B7%E7%94%A8%EF%BC%81/)
+
 ## 自行编译
 
 使用CMAKE分别在debug和release模式下进行编译
@@ -17,7 +19,7 @@ debug编译的test-dll能正常调用release编译的mydll吗？进行测试。
 分别测试3种动态库使用方式：
 
 - debug的应用程序使用debug的动态库：直接运行debug编译目录下的test-dll
-- release的应用程序使用release的动态库。：直接运行release编译目录下的test-dll
+- release的应用程序使用release的动态库：直接运行release编译目录下的test-dll
 - debug的应用程序使用release的动态库：创建一个新文件夹test-mix，将debug的test-dll和release的mydll拷贝到此，然后运行test-dll
 
 ## 预期结果
